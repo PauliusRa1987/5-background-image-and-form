@@ -13,10 +13,11 @@ Design: https://www.peakpx.com/611259/silhouette-of-man-standing-on-hill
 
 ## Project features
 
--   Github pages
--   fixt with container
--   header: logo + nav
--   png files
+-   Github pages (multi-page)
+-   HTML form
+-   CSS background images
+-   CSS position absolute
+-   CSS blur effect
 
 
 ## Authors
