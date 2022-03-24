@@ -30,7 +30,9 @@
 .bottom-links {
     position: absolute;
     bottom: 20px;
-    left: 20px;
+    left: 40px;
+    right: 40px;
+    
 
 }
 .bottom-links > .link {
