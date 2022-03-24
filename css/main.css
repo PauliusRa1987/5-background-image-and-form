@@ -3,11 +3,12 @@
     width: 800px;
     margin-left: calc(50% - 400px);
     margin-top: 100px;
+    display: inline-block;
+    position: relative;
 }
 
 .left-column {
     width: 40%;
-    float: left;
     padding: 40px;
     background-color: #797494;
     background-image: url(../images/hill.png);
@@ -15,27 +16,42 @@
     background-position: center;
     background-repeat: no-repeat;
     color: #fff;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    bottom: 30px;
 }
 .main-title {
     width: 100%;
     font-size: 40px;
     font-weight: normal;
-    margin-bottom: 250px;
+    
 }
-
 .bottom-links {
-}
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
 
+}
 .bottom-links > .link {
     color: #fff;
 }
 .right-column {
     width: 60%;
-    float: left;
+    float: right;
     padding: 60px;
-    background-color: #fff
+    background-color: #fff;
+    position: relative;
+    
 }
 
 .close {
-
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 54px;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
