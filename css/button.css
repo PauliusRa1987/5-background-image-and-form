@@ -5,9 +5,10 @@
     border-radius: 20px;
     color: #fff;
     border-color: rgb(69, 28, 167);
-    background-color: rgb(78, 34, 236);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgb(64, 52, 235) 100%);
     cursor: pointer;
 }
 .btn:hover {
-    background-color: rgb(22, 114, 114);
+    background: linear-gradient(-90deg, rgba(9,9,121,1) 0%, rgb(64, 52, 235) 100%);
 }
