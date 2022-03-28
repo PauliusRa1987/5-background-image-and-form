@@ -1,6 +1,11 @@
 body {
     height: 100vh;
     position: relative;
+    background-image: url(../images/hill.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(2rem);
 }
 .container {
     width: 800px;
